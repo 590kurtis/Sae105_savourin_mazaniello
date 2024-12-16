@@ -1,0 +1,269 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    background: rgb(24, 24, 24);
+    box-sizing: border-box;
+}
+.bloc{ 
+    /*font-family: 'Merriweather', serif;     */ 
+   /* font-size: 18px;*/
+    color: #e0e0e0; 
+    /*line-height: 1.8;*/ 
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif; 
+    font-size: 32px;
+    color: #ffffff; 
+    text-align: center; 
+}
+
+nav {
+    background: rgb(201,0,255);
+    background: linear-gradient(108deg, rgba(201,0,255,1) 0%, rgba(0,0,0,1) 20%, rgba(0,0,1,1) 98%, rgba(201,0,255,1) 100%);
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.637);
+    border-radius: 30px;
+    
+}
+
+nav img{
+     width: 45px;
+
+
+
+
+}
+
+
+
+nav a {
+    display: block;
+    color: rgb(230, 226, 226);
+    text-align: center;
+    padding: 14px 30px; 
+    text-decoration: none;
+    font-size: 18px; 
+    margin: 0 10px; 
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+nav a:hover {
+    transition: 1s;
+    background-color: #1a18167a;
+    color: rgb(235, 238, 235);
+    scale: 0.95;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-menu {
+    display: none; 
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background: #c900ff;; 
+    min-width: 200px; 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
+    z-index: 1000;
+    border-radius: 5px;
+}
+.dropdown-menu a {
+    display: block; 
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+.dropdown-menu a:hover {
+    background-color: #1b1a1a;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+    
+    
+
+footer {
+    background: rgb(32, 32, 32);
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    text-align: left;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+.footer-links li {
+    list-style-type: none;
+
+
+}
+.footer-links {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.imagetop{
+    height: 650px;
+    width: 1750px;
+    border-radius: 40px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+
+
+
+    
+}
+
+.lama:hover{
+    transition: 5s;
+    scale: 1.2;
+    
+
+}
+.ecritlama{
+display: flex;
+
+}
+.bloc p{
+flex: 1;
+margin-top: 100px;
+background-color: #20202085;
+color: aliceblue;
+
+
+}
+
+
+.montagne{
+border-radius:50px;
+width: 40%;
+height: auto;
+margin-left: 0px;
+float: right;
+margin-bottom: 30px;
+margin: 0px 0px 10px 10px;
+
+
+
+}
+.ecrit-montagne p{
+
+    margin-top: 10px;
+    text-align: right;
+    color:white;
+
+
+
+
+}
+.footer-links button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #00000021; 
+    color: white; 
+    cursor: pointer; 
+    display: block; 
+    align-items: end;
+    
+}
+    
+    .propos:hover{
+        box-shadow: 0 10px 7px rgb(138, 1, 250);
+        color: white;
+    
+    
+    
+    }
+   
+    .facebook:hover{
+        box-shadow: 0 10px 7px rgb(141, 11, 247);
+
+
+
+}
+.instagram:hover{
+    box-shadow: 0 10px 7px rgb(147, 22, 248);
+
+
+
+}
+.tiktok:hover{
+    box-shadow: 0 10px 7px rgb(152, 35, 248);
+    
+
+
+
+}
+.x:hover{
+    box-shadow: 0 10px 7px rgb(159, 47, 252);
+    
+
+
+
+}
+.contact:hover{
+    box-shadow: 0 10px 7px rgb(159, 47, 252);
+}
+   .footer-links img{
+    width: 40px;
+    
+      
+}
+.bloc video{
+    margin-left: 500px;
+   border-radius: 20px ;
+   height: auto;
+   width: 700px;
+   background-color: black;
+   cursor: pointer;
+
+
+}
+.centere-text{
+    text-align: center;
+
+
+
+}
+
+   
+
+
+
+
+
+
+    
+
+    
+    
+
+
+
+
+
+
