@@ -63,10 +63,10 @@ nav a:hover {
     font-size: 14px;
 }
 .menu a:hover {
-    background-color: #1b1a1a; 
+    background-color:#1b1a1a; 
 }
 .deroulant:hover .menu {
-    display: block;
+    display:block;
 }
 #table {
     margin-left: 40%;
@@ -228,11 +228,13 @@ footer {
     display: block; 
     align-items: end;
     cursor: pointer;
+    text-align: center;
     
 }
 .footer-links img{
     width: 40px;
-    
+    display: block; 
+     margin: 0 auto; 
       
 }
 

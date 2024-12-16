@@ -106,12 +106,16 @@ footer {
     align-items: end;
     
 }
-.footer-links img{
-    width: 40px;
-    
-      
+.footer-links {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
-
+ .footer-links img{
+    width: 40px;
+    display: block; 
+     margin: 0 auto;
+ }
     
     .propos:hover{
         box-shadow: 0 10px 7px rgb(138, 1, 250);

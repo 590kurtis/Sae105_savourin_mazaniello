@@ -120,6 +120,11 @@ footer {
     padding: 0;
     width: 100%;
 }
+.footer-links img{
+    width: 40px;
+    display: block; 
+     margin: 0 auto;
+}
 
 .imagetop{
     height: 650px;
@@ -249,6 +254,7 @@ margin: 0px 0px 10px 10px;
 
 
 }
+
 
    
 

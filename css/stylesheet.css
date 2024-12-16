@@ -172,6 +172,8 @@ footer {
 }
 .footer-links img{
     width: 40px;
+    display: block; 
+     margin: 0 auto; 
     
       
 }
