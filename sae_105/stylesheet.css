@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: rgb(252, 252, 252);
+    line-height: 1.6;
+}
+
+header {
+    background-image: url('https://example.com/eiffel-tower.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    text-align: center;
+    color: rgb(93, 0, 112);
+}
+
+header h1 {
+    font-size: 4em;
+    margin: 0;
+    text-shadow: 2px 2px 10px rgb(238, 238, 238);
+    
+}
+ h2{
+    color: rgb(238, 238, 238);
+    text-align: center;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.about {
+    background-color: rgb(0, 0, 0);
+}
+
+main table {
+    border: 5px solid rgb(93, 0, 112);
+    margin: 110px;
+    border-radius: 5px; 
+    
+}
+
+main table th {
+    border: 5px solid rgb(93, 0, 112);
+    
+}
+
+main table td {
+    border: 5px solid rgb(93, 0, 112); 
+    
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+footer {
+    background-color: rgb(93, 0, 112);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 0%;
+
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+p {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #000;
+    background-color: rgb(156, 102, 207);
+    border-radius: 40px
+    }
+img {
+    margin:0px;
+    border-radius:40px
+    
+    
+}
+video{
+    margin: 110px;
+    border-radius: 40px
+}

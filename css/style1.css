@@ -1,0 +1,292 @@
+body {
+    font-size: 20px;
+    text-align: center;
+    background: rgb(24, 24, 24);
+    border-color: rgb(169, 189, 169);
+}
+nav {
+    background: rgb(201,0,255);
+    background: linear-gradient(108deg, rgba(201,0,255,1) 0%, rgba(0,0,0,1) 20%, rgba(0,0,1,1) 98%, rgba(201,0,255,1) 100%);
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.637);
+    border-radius: 30px;
+    
+}
+ nav img{
+      width: 45px;
+
+
+
+
+ }
+
+
+nav a {
+    display: block;
+    color: rgb(230, 226, 226);
+    text-align: center;
+    padding: 14px 30px; 
+    text-decoration: none;
+    font-size: 18px; 
+    margin: 0 10px; 
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+nav a:hover {
+    transition: 1s;
+    background-color: #1a18167a;
+    color: rgb(235, 238, 235);
+    scale: 0.95;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-menu {
+    display: none; 
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background: #c900ff;; 
+    min-width: 200px; 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
+    z-index: 1000;
+    border-radius: 5px;
+}
+.dropdown-menu a {
+    display: block; 
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+.dropdown-menu a:hover {
+    background-color: #1b1a1a; 
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+#table {
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+
+#table td {
+    border: 2px solid;
+    background-color: rgb(169, 189, 169);
+}
+
+#table th {
+    border: 4px solid;
+    font-size: larger;
+    background-color: gray;
+}
+
+
+
+
+
+
+h5 {
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none; /* Supprime le soulignement */
+  }
+
+
+
+
+
+
+
+#pied {
+    background-color: rgb(75, 75, 75);
+    display: flow-root;
+    color: aliceblue;
+}
+
+
+#video {
+    border-style: ridge;
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: contain;
+    width: 1200px;
+    margin: auto;
+    
+}
+
+
+.articles {
+    max-width: 2000px;
+    width: 100%;
+    margin: 80px auto;
+    border-style: ridge;
+    border-width: 5px;
+    background: #5b0274
+}
+
+#post {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#post article {
+    width: 48%;
+    margin-top: 0%;
+    border-width: 5px;
+    margin-bottom: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#post article:nth-child(-n+2) {
+    margin-top: 10px;
+}
+
+#post article .text {
+    padding: 30px 5%;
+    background: #5b0274;
+    
+    
+}
+
+#post h2 {
+    margin-bottom: 10px;
+    line-height: 1.45em;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#post p {
+    line-height: 1.45em;
+}
+
+#post .image img {
+    display: block;
+}
+
+
+.tete {
+    background: #5b0274;
+    display: flow-root;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.prix {
+    background: #5b0274;
+    border-style: ridge;
+    border-width: 5px;
+
+}
+footer {
+    background: rgb(32, 32, 32);
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    text-align: left;
+    margin-left: 0%;
+    margin-top: 100px;
+
+}
+.footer-links {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.footer-links li {
+    list-style-type: none;
+
+
+}
+.footer-links button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #00000021; 
+    color: white; 
+    display: block; 
+    align-items: end;
+    cursor: pointer;
+    
+}
+.footer-links img{
+    width: 40px;
+    
+      
+}
+
+    
+    .propos:hover{
+        box-shadow: 0 10px 7px rgb(138, 1, 250);
+        color: white;
+    
+    
+    
+    }
+   
+    .facebook:hover{
+        box-shadow: 0 10px 7px rgb(141, 11, 247);
+
+
+
+}
+.instagram{
+    border-radius: 2px;
+
+
+
+}
+.instagram:hover{
+    box-shadow: 0 10px 7px rgb(147, 22, 248);
+
+
+
+}
+.tiktok:hover{
+    box-shadow: 0 10px 7px rgb(152, 35, 248);
+    
+
+
+
+}
+.x:hover{
+    box-shadow: 0 10px 7px rgb(159, 47, 252);
+    
+
+
+
+}
+
+.contact:hover{
+    box-shadow: 0 10px 7px rgb(159, 47, 252);
+    
+
+
+
+}
+.contact:hover{
+    box-shadow: 0 10px 7px rgb(159, 47, 252);
+}
+   .footer-links img{
+    width: 40px;
+    
+      
+}
