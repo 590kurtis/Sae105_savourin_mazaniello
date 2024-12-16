@@ -124,7 +124,7 @@ nav a:hover {
 
 
  }
- .cards-container {
+ .bloc {
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -132,7 +132,7 @@ nav a:hover {
     min-height: 100vh;
 }
 
-.card {
+.carte {
     background-color: #222;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -142,13 +142,13 @@ nav a:hover {
      margin-top: 0px;
 }
 
-.card img {
+.carte img {
     width: 400px;
     height:600px;
     object-fit: cover;
     border-radius: 10px;
 }
-.card:hover {
+.carte:hover {
     transform: translateY(-5px);
     box-shadow: 0 16px 111px rgba(136, 4, 148, 0.884);
 }
