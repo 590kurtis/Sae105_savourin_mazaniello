@@ -60,11 +60,11 @@ nav a:hover {
     color: rgb(235, 238, 235);
     scale: 0.95;
 }
-.dropdown {
+.deroulant {
     position: relative;
     display: inline-block;
 }
-.dropdown-menu {
+.menu {
     display: none; 
     position: absolute;
     top: 100%; 
@@ -75,16 +75,16 @@ nav a:hover {
     z-index: 1000;
     border-radius: 5px;
 }
-.dropdown-menu a {
+.menu a {
     display: block; 
     color: white;
     padding: 10px;
     font-size: 14px;
 }
-.dropdown-menu a:hover {
+.menu a:hover {
     background-color: #1b1a1a;
 }
-.dropdown:hover .dropdown-menu {
+.deroulant:hover .menu {
     display: block;
 }
 
